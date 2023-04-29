@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "unittest-proj"
+version = "0.1.0"
+description = ""
+authors = ["Denis_L <denis88lyapin@gmail.com>"]
+readme = "README.md"
+packages = [{include = "unittest_proj"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+coverage = "7.0.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
